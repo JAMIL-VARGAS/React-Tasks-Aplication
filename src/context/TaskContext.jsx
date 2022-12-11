@@ -1,6 +1,7 @@
 import {createContext,useEffect,useState} from 'react'
 import {tasks as data} from '../data/tasks'
 
+// USAMOS EL CONTEXT PARA QUE EL ARBOL GENERAL TENGA LAS FUNCIONES ASI CUALQUIER COMPONENTE PUEDE ACCEDER A ESTAS FUNCIONES
 export const TaskContext = createContext()
 
 export function TaskContextProvider(props) {
